@@ -15,7 +15,15 @@ body {
     color: tomato;
 }
 
-section {
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.flexible-container {
     display: flex;
 }
 
@@ -46,4 +54,30 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.end-banner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.experience-item {
+    width: 40;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px rgb(149, 236, 8);
+    border-radius: 30px;
+}
+
+#full-stack-experience {
+    border-left: 15px solid;
+    border-image: linear-gradient(rgb(236, 233, 30), rgb(112, 4, 4));
+    border-image-slice: 1;
+}
+
+#baby-web-experience {
+    border-left: 15px solid;
+    border-image: linear-gradient(rgb(8, 1, 70), rgb(228, 36, 36));
+    border-image-slice: 1;
 }
